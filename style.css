@@ -1,0 +1,87 @@
+*, html{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    border: solid gray;
+    background-color: rgba(0, 238, 255, 0.24);
+    width: 567px;
+    height: 794px;
+   
+}
+
+.head{
+    margin: 4px;
+    border: solid burlywood;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.logo{
+    height: 120px;
+    width: 170px;
+   
+}
+.company{
+    border: solid;
+    width: px;
+    text-align: center;
+    position: relative;
+    
+}
+hr{
+    height: 3px;
+    background-color: rgba(133, 235, 235, 0.507);
+   
+}
+
+.official{
+    
+    margin: 4px;
+    border: solid 1px cornflowerblue;
+    display: flex;
+    width: 556;
+    justify-content: space-between;
+}
+
+.adress{
+    border-radius: 10px;
+    height: 86px;
+    width: 260px;
+    border: 1px solid;
+}
+
+
+
+.code, .adress{
+     display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.code{
+    width: 220px;
+}
+
+.date{
+    border-radius: 10px 10px 0px 0;
+    border: 1px solid;
+    margin-right: 4px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.date p, h2{
+    text-align: center;
+}
+
+input{
+    width: 50px;
+}
+
+
+
